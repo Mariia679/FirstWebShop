@@ -1,0 +1,207 @@
+@import "http://webfonts.ru/import/aleksandrac.css";
+
+@import "http://webfonts.ru/import/ashley.css";
+
+* {
+	font-family: 'AleksandraC';
+}
+
+.register {
+	font-family: 'AshleyCapitaliSofia';
+}
+
+.bord {
+	padding: 0 50px;
+}
+
+.text a {
+	font-size: 11px;
+	color: white;
+	text-decoration: none;
+}
+
+.text {
+	margin-top: 20px;
+}
+
+.text a:hover {
+	text-decoration: inherit;
+	color: firebrick;
+}
+
+/* .column {
+	padding: 70px 0px;
+	margin: 0px 30px;
+} */
+.strong {
+	font-weight: 700;
+}
+
+.logo {
+	padding: 15px 0;
+	margin-left: 100px;
+}
+
+#upperheader ul li a {
+	color: #949494;
+	text-decoration: none;
+}
+
+#upperheader ul li a:hover {
+	text-decoration: inherit;
+	color: firebrick;
+}
+
+.navbar-header a img {
+	width: 72px;
+}
+
+.carousel-indicators li {
+	border-color: #c2c2c2;
+	background-color: #c2c2c2;
+}
+
+.text-centre {
+	margin-left: 113px;
+	margin-bottom: 25px;
+}
+
+.margin-botom {
+	margin-bottom: 40px;
+}
+
+#mail_color a {
+	color: firebrick;
+	text-decoration: none;
+}
+
+#mail_color a:hover {
+	color: white;
+	text-decoration: inherit;
+}
+
+.text-bot {
+	padding-left: 200px;
+}
+
+.left1 {
+	width: 20%;
+	float: left;
+	color: #27221e;
+}
+
+.borderd {
+	border-top: 1px dotted grey;
+	border-right: 1px dotted grey;
+	border-left: 1px dotted grey;
+}
+
+.main {
+	float: left;
+}
+
+.price {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.name {
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+.indent {
+	margin-bottom: 20px;
+}
+
+.left2 {
+	float: left;
+	width: 30%;
+}
+
+.right2 {
+	width: 70%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.nav>li>.cart {
+	font-weight: 800;
+}
+
+.bascket {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#upperheader ul li .cart {
+	color: black;
+}
+
+#upperheader ul li .btn {
+	padding: 7px 22px;
+	margin-top: 7px;
+}
+
+#upperheader ul li .order {
+	color: white;
+}
+
+.color {
+	color: white;
+}
+
+@media ( max-width :768px) {
+	.icon {
+	font-size: 20px;
+		width: 100%;
+		height: 200px;
+		margin-bottom: 0;
+	}
+	.bascket {
+		margin: 25px 10px;
+	}
+	#carousel-example-generic {
+		width: 100%;
+	}
+	.footer {
+		background-size: cover;
+	}
+	.bord {
+		padding: 10px 50px;
+	}
+	.logo {
+		padding: 10px;
+		margin-left: 0;
+	}
+	.text-centre {
+		margin-left: 12px;
+		margin-bottom: 15px;
+	}
+	.text-bot {
+		margin: 24px;
+		padding-left: 22px;
+	}
+}
+
+@media ( min-width : 768px) and (max-width:992px) {
+	.text-bot {
+		padding-left: 5px;
+	}
+}
+
+@media ( min-width : 992px) and (max-width:1200px) {
+	.bord {
+		padding: 10px 30px;
+	}
+	.text-bot {
+		padding-left: 50px;
+	}
+	.pager {
+		width: 100%;
+	}
+}
+
